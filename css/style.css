@@ -132,3 +132,50 @@ shade da cor3:#121523;
   font-size: 2rem;
   line-height: 1.6;
 }
+
+/* ****************************************
+                 PROJECTS
+**************************************** */
+
+.section-projects {
+  background-color: #130f30;
+  color: #fff;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.projects {
+  max-width: 120rem;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 3.2rem;
+  align-items: center;
+  color: #fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.projects__item {
+  background-color: #fff;
+  width: 20rem;
+  height: 15rem;
+  /* border-radius: 2rem; */
+}
+
+.projects__description {
+  font-size: 2rem;
+  line-height: 1.6;
+}
