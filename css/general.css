@@ -61,7 +61,8 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #222;
@@ -70,4 +71,16 @@ body {
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.25;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("../assets/layered-peaks-haikei.svg");
 }
