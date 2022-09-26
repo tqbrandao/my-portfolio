@@ -66,15 +66,23 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #222;
+  overflow-x: hidden;
 }
 
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.25;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
 .spacer {
-  aspect-ratio: 960/300;
+  aspect-ratio: 960/150;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -82,5 +90,5 @@ body {
 }
 
 .layer1 {
-  background-image: url("../assets/layered-peaks-haikei.svg");
+  background-image: url("../assets/layered-peaks-haikei-final.svg");
 }
