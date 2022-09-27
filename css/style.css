@@ -101,7 +101,7 @@ shade da cor3:#121523;
 .section-about {
   /* background-color: #5968b1; */
   background-color: #1d1649;
-  padding: 6.4rem 0 6.4rem 0;
+  padding: 9.6rem 0 6.4rem 0;
   color: #fff;
 }
 
@@ -131,7 +131,7 @@ shade da cor3:#121523;
   width: 85%;
   height: 85%;
   object-fit: cover;
-  animation: waving-hand 8s infinite;
+  animation: waving-hand 10s infinite;
   transform-origin: 70% 70%;
 }
 
@@ -150,7 +150,7 @@ shade da cor3:#121523;
 }
 
 .about__description {
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   line-height: 1.6;
 }
 
@@ -214,7 +214,7 @@ shade da cor3:#121523;
 
 .section-projects {
   background-color: #130f30;
-  padding: 6.4rem 0 9.6rem 0;
+  padding: 9.6rem 0 6.4rem 0;
   color: #fff;
 }
 
@@ -264,7 +264,13 @@ shade da cor3:#121523;
 .project-img {
   max-width: 100%;
   cursor: pointer;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  transition: 350ms ease-in-out;
+}
+
+.project-img:hover {
+  transition: 350ms ease-in-out;
+  transform: scale(1.05);
 }
 
 .tech-span {
