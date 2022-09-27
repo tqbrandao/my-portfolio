@@ -1,53 +1,27 @@
-/*
------ 1 SISTEMA DE TIPOGRAFIA -----
+/* ****************************************
+                 COLORS
+**************************************** */
+:root {
+  /* Main Light */
+  --main-light: #5968b1;
+  --main-light-tint1: #9ba4d0;
 
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  --main-light-shade1: #121523;
+  --main-light-shade2: #1b1f35;
 
-- Font weights:
-Default: 400
-Medium: 500
-Semi-bold: 600
-Bold: 700
+  --normal-text: #fff;
+  --light-text: #d6d3e4;
 
-- Line heights:
-EM TEXTOS EM UPPERCASE E COM LETRA PEQUENA EH BOM USAR UM LETTER SPACING MAIOR... FICA BEM VISUALMENTE
+  /* Main Dark */
+  --main-dark: #302579;
 
-Default: 1
-1.05
-1.2
-1.6
+  --main-dark-shade1: #1d1649;
+  --main-dark-shade2: #130f30;
+  --main-dark-shade3: #0e0b24;
 
-- Letter spacing
-0.5px
-0.75px
-
------ 2 CORES  -----
-
--Primary:
-
--Tints:
-#fdf2e9;
--Shades:
--Accents:
--Greys: 
-#6f6f6f
-#555
-#333
-
------ 5 SHADOWS -----
-
------ 6 BORDER RADIUS -----
-
-Default: 9px
-
------ 7 WHITESPACE -----
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-
-*/
+  /* Purple complementary */
+  --main-dark-comp: #f2e177;
+}
 
 * {
   padding: 0;
@@ -91,4 +65,115 @@ body {
 
 .layer1 {
   background-image: url("../assets/layered-peaks-haikei-final.svg");
+}
+
+/*   HERO BUTTON  */
+
+.hero__btn {
+  position: relative;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* color: #2894ff; */
+  color: #9ba4d0;
+  background: #121523;
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin: 1rem;
+  letter-spacing: 2px;
+}
+
+.hero__btn:hover {
+  background: #9ba4d0;
+  color: #1f242d;
+  transition: 0.5s;
+  transition-delay: 1s;
+}
+
+.hero__btn span {
+  position: absolute;
+  display: block;
+  background: #9ba4d0;
+}
+
+.hero__btn span:nth-child(1) {
+  left: 0;
+  bottom: 0;
+  width: 0.3rem;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.25s;
+}
+
+.hero__btn:hover span:nth-child(1) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.25s;
+}
+
+.hero__btn span:nth-child(2) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0.3rem;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s;
+  transition-delay: 0.25s;
+}
+
+.hero__btn:hover span:nth-child(2) {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.25s;
+  transition-delay: 0.25s;
+}
+
+.hero__btn span:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  width: 0.3rem;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.25s;
+  transition-delay: 0.5s;
+}
+
+.hero__btn:hover span:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.25s;
+  transition-delay: 0.5s;
+}
+
+.hero__btn span:nth-child(4) {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.3rem;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s;
+  transition-delay: 0.75s;
+}
+
+.hero__btn:hover span:nth-child(4) {
+  transform: scaleX(1);
+  transform-origin: right;
+  transition: transform 0.25s;
+  transition-delay: 0.75s;
+}
+
+.logo-aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.linkedin-logo {
+  font-size: 3rem;
 }
