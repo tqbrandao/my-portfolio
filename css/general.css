@@ -23,6 +23,10 @@
   --main-dark-comp: #f2e177;
 }
 
+/* ****************************************
+                 GENERAL
+**************************************** */
+
 * {
   padding: 0;
   margin: 0;
@@ -67,7 +71,9 @@ body {
   background-image: url("../assets/layered-peaks-haikei-final.svg");
 }
 
-/*   HERO BUTTON  */
+/* ****************************************
+                 HERO BUTTON
+**************************************** */
 
 .hero__btn {
   position: relative;
