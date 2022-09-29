@@ -1,17 +1,23 @@
 /* ****************************************
                  HEADER
 **************************************** */
-.logo {
-  height: 7rem;
+.header {
+  background-color: var(--main-light);
+  padding: 0 4.8rem;
 }
 
-.header {
+.header-container {
+  max-width: 120rem;
+  height: 9rem;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: var(--main-light);
-  height: 9rem;
-  padding: 0 4.8rem;
+  justify-content: space-between;
+}
+
+.header--logo {
+  height: 7rem;
+  margin-left: 3rem;
 }
 
 /* ****************************************
@@ -61,7 +67,7 @@
 }
 
 .hero {
-  max-width: 130rem;
+  max-width: 120rem;
   height: 100vh;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -95,14 +101,14 @@
 
 .section-about {
   background-color: var(--main-dark-shade1);
-  padding: 9.6rem 0 6.4rem 0;
+  padding: 9.6rem 0;
   color: var(--normal-text);
 }
 
 .about__container {
   background-color: var(--main-dark-shade1);
   /* clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 28%); */
-  max-width: 130rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
@@ -116,8 +122,6 @@
 }
 
 .about-img-box {
-  width: 50rem;
-  height: 60rem;
   text-align: center;
 }
 
@@ -125,25 +129,58 @@
   width: 85%;
   animation: waving-hand 10s infinite;
   transform-origin: 70% 70%;
+  padding-right: 10rem;
 }
 
 .about__text-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 3.2rem;
   color: var(--normal-text);
 }
 
-.about__description {
+.about__description--text {
   font-size: 2.3rem;
   line-height: 1.6;
 }
 
+.about__description--skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skills-header {
+  font-size: 2.3rem;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* color: var(--main-dark-comp); */
+  color: #918747;
+}
+
+.skills-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  /* color: var(--main-dark-comp); */
+  color: #f6eaa0;
+}
+
 .about-emoji {
-  font-size: 4.6rem;
+  display: inline-block;
+  font-size: 3.6rem;
   margin-right: 2rem;
+  text-align: center;
 }
 
 @keyframes waving-hand {
@@ -206,7 +243,7 @@
 }
 
 .projects-container {
-  max-width: 130rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
@@ -296,7 +333,7 @@ ion-icon {
 }
 
 .footer-container {
-  max-width: 130rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
@@ -312,7 +349,7 @@ ion-icon {
 
 .logo-footer {
   /* width: 70%; */
-  height: 6rem;
+  height: 6.2rem;
 }
 
 .contact-col {

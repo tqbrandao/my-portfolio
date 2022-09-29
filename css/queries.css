@@ -1,0 +1,4 @@
+/* Nao usar REM em media queries (existem alguns bugs em browsers especificos). Preferir EM.
+
+1rem = 1em = 16px (nao respondem aos 62.5% do fontsize definido no html)
+*/
