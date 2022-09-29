@@ -2,7 +2,7 @@
                  HEADER
 **************************************** */
 .logo {
-  height: 8rem;
+  height: 7rem;
 }
 
 .header {
@@ -291,7 +291,7 @@ ion-icon {
 
 .footer {
   background-color: var(--main-dark-shade3);
-  padding: 3.6rem 0 3.6rem 0;
+  padding: 2rem 0 2rem 0;
   color: var(--normal-text);
 }
 
@@ -301,18 +301,18 @@ ion-icon {
   padding: 0 3.2rem;
   display: grid;
   gap: 6rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .logo-col {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.footer-logo {
-  display: block;
-  margin-bottom: 3.2rem;
+.logo-footer {
+  /* width: 70%; */
+  height: 6rem;
 }
 
 .contact-col {
@@ -320,11 +320,18 @@ ion-icon {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+.social-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icon {
-  height: 2.8rem;
-  width: 2.8rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .social-links {
@@ -332,13 +339,13 @@ ion-icon {
   display: flex;
   justify-content: center;
   gap: 2.4rem;
-  /* margin-bottom: 1.2rem; */
 }
 
 .footer-heading {
-  font-size: 1.8rem;
-  font-weight: 500;
-  /* margin-bottom: 3.2rem; */
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #d6d3e4;
+  /* margin-bottom: 2rem; */
 }
 
 .footer-link:link,
@@ -351,5 +358,6 @@ ion-icon {
 
 .footer-link:hover,
 .footer-link:active {
-  color: #555;
+  /* color: #555; */
+  color: #d6d3e4;
 }
