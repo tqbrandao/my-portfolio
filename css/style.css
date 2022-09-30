@@ -3,21 +3,17 @@
 **************************************** */
 .header {
   background-color: var(--main-light);
-  padding: 0 4.8rem;
-}
-
-.header-container {
-  max-width: 120rem;
+  padding: 0 3.2rem;
   height: 9rem;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .header--logo {
   height: 7rem;
-  margin-left: 3rem;
+  /* margin-left: 4.6rem; */
 }
 
 /* ****************************************
@@ -39,13 +35,31 @@
   font-weight: 600;
   color: var(--main-light-shade1);
   text-transform: uppercase;
-  font-size: 2rem;
   transition: all 0.25s;
 }
 
 .main-nav--link:hover,
 .main-nav--link:active {
   color: var(--main-light-tint1);
+}
+
+/* MOBILE NAVIGATION */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: var(--main-light-shade1);
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* ****************************************
@@ -88,6 +102,7 @@
 
 .sub-heading {
   font-weight: 400;
+  font-size: 4.2rem;
   color: var(--main-light-shade2);
 }
 
@@ -126,8 +141,8 @@
 }
 
 .about-img-box img {
-  width: 85%;
-  animation: waving-hand 10s infinite;
+  width: 90%;
+  animation: waving-hand 12s infinite;
   transform-origin: 70% 70%;
   padding-right: 10rem;
 }
@@ -278,7 +293,7 @@
 
 .project-description--text {
   margin-bottom: 3.2rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
   line-height: 1.6;
   text-align: center;
   color: var(--light-text);
@@ -288,7 +303,7 @@
 .project-img {
   max-width: 100%;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 3.2rem;
   transition: 350ms ease-in-out;
 }
 
@@ -328,7 +343,7 @@ ion-icon {
 
 .footer {
   background-color: var(--main-dark-shade3);
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0;
   color: var(--normal-text);
 }
 

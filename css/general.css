@@ -36,6 +36,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -78,7 +79,7 @@ body {
 .hero__btn {
   position: relative;
   display: inline-block;
-  padding: 1.5rem 3rem;
+  padding: 1.6rem 3.2rem;
   text-decoration: none;
   /* text-transform: uppercase; */
   /* color: #2894ff; */
