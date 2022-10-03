@@ -295,6 +295,7 @@
   background-color: var(--main-dark-shade2);
   padding: 9.6rem 0 6.4rem 0;
   color: var(--normal-text);
+  border-top: 1px solid rgba(208, 207, 214, 0.5);
 }
 
 .projects-container {
@@ -366,6 +367,10 @@
   font-weight: 400;
   text-align: center;
   gap: 2rem;
+}
+
+.practice-span {
+  color: #f3e485;
 }
 
 ion-icon {

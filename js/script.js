@@ -8,8 +8,6 @@ btnMobileEl.addEventListener("click", () => {
   headerEl.classList.toggle("nav-open");
 });
 
-// ANIMACAO SUAVE NO SCROLL
-
 const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach((link) => {
