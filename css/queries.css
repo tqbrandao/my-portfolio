@@ -12,6 +12,10 @@
     /* 9px / 16px (diminuindo 1 px) */
     font-size: 56.25%;
   }
+
+  .header {
+    justify-content: space-between;
+  }
 }
 
 /* ****************************************
@@ -179,7 +183,7 @@
 
 @media (max-width: 35em) {
   .heading-primary {
-    font-size: 4.8rem;
+    font-size: 4.4rem;
   }
 
   .heading-primary--projects {
@@ -192,6 +196,7 @@
 
   .hero {
     padding: 6.4rem 1.2rem;
+    line-height: 1.2;
   }
 
   .hero-img {
