@@ -37,11 +37,6 @@
 **************************************** */
 
 @media (max-width: 57em) {
-  html {
-    /* 9px / 16px (diminuindo 1 px) */
-    /* font-size: 50%; */
-  }
-
   .hero {
     height: auto;
     padding: 9.6rem 0;
