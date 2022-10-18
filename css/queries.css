@@ -142,6 +142,10 @@
   .main-nav--link:visited {
     font-size: 2.6rem;
   }
+
+  .nav-flag {
+    margin-left: 0;
+  }
 }
 
 /* ****************************************

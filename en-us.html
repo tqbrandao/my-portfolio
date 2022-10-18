@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I'm Thálysson Brandão, tech lover and frontend web developer." />
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">    
 
     <!-- Montserrat font family -->
@@ -13,7 +14,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-    />    
+    /> 
 
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/style.css" />
@@ -21,21 +22,21 @@
 
     <script defer src="/js/script.js"></script>
 
-    <title>Thálysson Brandão | Portfólio</title>
+    <title>Thálysson Brandão | Portfolio</title>
     
   </head>
   <body>
     <header class="header">      
         <a href="#">
-          <img src="/assets/logo-header-final-centro.png" alt="TQ Logo" class="header--logo" />
+          <img src="/assets/logos/logo-header-final-centro.png" alt="TQ Logo" class="header--logo" />
         </a>
 
         <nav class="main-nav">
           <ul class="main-nav--list">
-            <li><a href="#" class="main-nav--link">Início</a></li>
-            <li><a href="#about" class="main-nav--link">Sobre mim</a></li>
-            <li><a href="#portfolio" class="main-nav--link">Projetos</a></li>
-            <li><button class="btn-translate">Tradutor</button></li>
+            <li><a href="#" class="main-nav--link">Home</a></li>
+            <li><a href="#about" class="main-nav--link">About</a></li>
+            <li><a href="#portfolio" class="main-nav--link">Projects</a></li>
+            <li><a href="./index.html" target="_self"> <img  src="./assets/brazil-flag-2.png" alt="Brazil flag" srcset="" style="height: 2.8rem; margin-left: 5rem;"> </a></li>            
           </ul>
         </nav>
 
@@ -50,9 +51,9 @@
         <div class="hero__container">
           <div class="hero">
             <div class="hero__text-box">
-              <h1 class="heading-primary hero-welcome">
-                Olá, eu sou<br />Thálysson Brandão.<br />
-                <span class="sub-heading">Desenvolvedor Web 💻</span>
+              <h1 class="heading-primary">
+                Hello, I'm<br />Thálysson Brandão.<br />
+                <span class="sub-heading">Web Developer 💻</span>
               </h1>
 
               <a class="btn hero__btn" href="https://www.linkedin.com/in/tqbrandao/" target="_blank">
@@ -68,7 +69,7 @@
               </a>
             </div>
             <div class="hero__img-box">
-              <img src="./assets/torino-png.png" alt="Foto do Desenvolvedor" class="hero-img" />
+              <img src="./assets/torino-png.png" alt="Developer's photo" class="hero-img" />
             </div>
           </div>
         </div>
@@ -76,20 +77,20 @@
 
       <section class="section-about" id="about">
         <div class="about__container">  
-          <h1 class="heading-primary">Sobre mim</h1>
+          <h1 class="heading-primary">About me</h1>
           <div class="about-box">
             <div class="about-img-box">
-              <img src="/assets/emoji-thalysson-semfundo.png" alt="Thalysson em emoji" class="about-img">
+              <img src="/assets/emoji-thalysson-semfundo.png" alt="Thalysson as a emoji" class="about-img">
             </div>                    
               <div class="about__text-box">
                 <p class="about__description--text">
-                  Trabalhei como Engenheiro Civil por mais de 7 anos, gerenciando equipes de construção e projetos de diversos tamanhos e complexidades mas, mesmo durante esse período, nunca deixei minha paixão por tecnologia e desenvolvimento web de lado, trabalhando em alguns projetos pessoais como hobby.
+                  Worked as a Civil Engineer for over 7 years, managing construction teams and projects of various sizes and complexities but, even during that period, I've never put aside my love for technology and web development, working in some personal projects as a hobby.
                 </p>
                 <p class="about__description--text">
-                  No último ano, comecei a levar as coisas a um próximo nível, estudando e produzindo novos projetos. Agora pretendo transformar meu hobby em um novo emprego de tempo integral.
+                  Over the last year, I've been taking things to the next level, studying and building new projects. Now I'm looking to turn my hobby into a new full time job.
                 </p>
                 <div class="about__description--skills">
-                  <h2 class="skills-header">Algumas de minhas habilidades:</h2>   
+                  <h2 class="skills-header">Skills:</h2>   
                   <ul class="skills-list">
                     <li class="skill">
                       <span class="about-emoji">👨‍💻</span>
@@ -120,7 +121,9 @@
             <div class="gallery">
               <div class="projects__item">
                 <h2 class="heading-secondary project-description">Architect Portfolio Website</h2>
-                <img class="project-img" src="/assets/project1.png"  alt="">
+                <a href="https://www.sophiafreirearquitetura.com.br/" target="_blank">
+                  <img class="project-img" src="/assets/gallery/laptop-architect.png"  alt="Architect portfolio website miniature">
+                </a>
                 <p class="project-description--text">Clean, modern, responsive architect portfolio website. Peaceful and minimalist mood. Designed from scratch with HTML, CSS and JavaScript.</p>
                 <div class="tech-description">
                   <div class="aligner">
@@ -137,7 +140,9 @@
 
               <div class="projects__item">
                 <h2 class="heading-secondary project-description">The Beatles Project</h2>
-                <img class="project-img" src="/assets/laptop_beatles.png"  alt="">
+                <a href="https://github.com/tqbrandao/the-beatles-project" target="_blank">
+                  <img class="project-img" src="/assets/gallery/laptop_beatles.png"  alt="ReactJS Beatles application miniature">
+                </a>
                 <p class="project-description--text"> Transformed my passion for The Beatles into this cool ReactJS app which connects to an API and displays information about all of the original albums. </p>
                 <div class="tech-description">
                   <div class="aligner">
@@ -154,8 +159,10 @@
               
               <div class="projects__item">
                 <h2 class="heading-secondary project-description">React Food Order App</h2>
-                <img class="project-img" src="/assets/project1.png"  alt="">
-                <p class="project-description--text">[Practice Project] <br> Food order app built with ReactJS featuring several hooks, such as: useState, useEffect, useReducer, useContext. </p>
+                <a href="https://github.com/tqbrandao/food-order-app" target="_blank">
+                  <img class="project-img" src="/assets/gallery/laptop-food-order.png"  alt="ReactJS food order application miniature">
+                </a>
+                <p class="project-description--text"><span class="practice-span">[Practice Project]</span> <br> Food order app built with ReactJS (featuring several hooks) as a practice project in Max Schwarzmüller react course. </p>
                 <div class="tech-description">
                   <div class="aligner">
                     <ion-icon name="logo-html5"></ion-icon> <span class="tech-span">HTML</span>
@@ -171,8 +178,10 @@
 
               <div class="projects__item">
                 <h2 class="heading-secondary project-description">Pig Game</h2>
-                <img class="project-img" src="/assets/project1.png"  alt="">
-                <p class="project-description--text">[Practice Project] <br> Simple dice game built as a practice project in Jonas Schmedtmann's JavaScript course.</p>
+                <a href="https://pig-game-thalysson.netlify.app/" target="_blank">
+                  <img class="project-img" src="/assets/gallery/laptop-pig-game.png"  alt="JavaScript game miniature">
+                </a>
+                <p class="project-description--text"> <span class="practice-span">[Practice Project]</span> <br> Simple dice game built as a practice project in Jonas Schmedtmann's JavaScript course.</p>
                 <div class="tech-description">
                   <div class="aligner">
                     <ion-icon name="logo-html5"></ion-icon> <span class="tech-span">HTML</span>
@@ -196,7 +205,7 @@
         <div class="logo-col">
           <a href="#" class="footer-logo">
             <img
-              src="/assets/logo-footer-final-centro.png"
+              src="/assets/logos/logo-footer-final-centro.png"
               alt="Thalysson Logo"
               class="logo-footer"
             />
