@@ -208,7 +208,7 @@
 .about__description--skills {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.2rem;
 }
 
 .skills-header {
@@ -217,7 +217,8 @@
   text-transform: uppercase;
   font-weight: 700;
   /* color: var(--main-dark-comp); */
-  color: #918747;
+  /* color: #e8a272; */
+  color: #fff;
 }
 
 .skills-list {
@@ -241,6 +242,7 @@
   font-size: 3.6rem;
   margin-right: 2rem;
   text-align: center;
+  width: 4.9rem;
 }
 
 @keyframes waving-hand {
